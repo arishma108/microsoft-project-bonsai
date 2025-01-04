@@ -21,14 +21,14 @@ Here’s the deal:
 In this repo, I'm diving into three tried-and-true brain design patterns that will let me build modular AI systems for practically any application.
 
 ### The Big Three Brain Design Patterns
-- Perception Pattern
-Picture this: A Machine Learning (ML) model handles high-level perception tasks—computer vision, auditory classification, predictions, you name it. The insights are then handed over to a decision-making module (usually Deep Reinforcement Learning or DRL). It’s the classic “see-think-do” trifecta.
+- <b>Perception Pattern</b>
+<br>Picture this: A Machine Learning (ML) model handles high-level perception tasks—computer vision, auditory classification, predictions, you name it. The insights are then handed over to a decision-making module (usually Deep Reinforcement Learning or DRL). It’s the classic “see-think-do” trifecta.
 
 - <b>Function Pattern</b>
-This one’s about independence. If you have separate tasks that don’t overlap—like controlling individual fingers versus the elbow on a robotic arm—you can break them into independent modules. Each module gets its own “knob” to control its part, like running different sections of a factory assembly line or tuning independent chemical reactors in a plant.
+<br>This one’s about independence. If you have separate tasks that don’t overlap—like controlling individual fingers versus the elbow on a robotic arm—you can break them into independent modules. Each module gets its own “knob” to control its part, like running different sections of a factory assembly line or tuning independent chemical reactors in a plant.
 
-- Strategy Pattern
-When you’re dealing with similar actions but different scenarios, the Strategy Pattern shines. Think of it as creating multiple playbooks for a machine operator: one for startup, one for high-demand operations, and another for low-demand periods. Each strategy gets its own module, and a decision-making module picks the right one on the fly.
+- <b>Strategy Pattern</b>
+<br>When you’re dealing with similar actions but different scenarios, the Strategy Pattern shines. Think of it as creating multiple playbooks for a machine operator: one for startup, one for high-demand operations, and another for low-demand periods. Each strategy gets its own module, and a decision-making module picks the right one on the fly.
 
 By the end of this I will have the playbook for designing modular AI brains that are:
 
