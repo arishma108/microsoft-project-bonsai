@@ -30,7 +30,7 @@ In this repo, I'm diving into three tried-and-true brain design patterns that wi
 - <b>Strategy Pattern</b>
 <br>When you’re dealing with similar actions but different scenarios, the Strategy Pattern shines. Think of it as creating multiple playbooks for a machine operator: one for startup, one for high-demand operations, and another for low-demand periods. Each strategy gets its own module, and a decision-making module picks the right one on the fly.
 
-By the end of this I will have the playbook for designing modular AI brains that are:
+By the end of this I will have a playbook for designing modular AI brains that are:
 
 - Tailored for industrial applications.
 - Built on rock-solid design patterns.
