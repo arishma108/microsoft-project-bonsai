@@ -1,4 +1,4 @@
-# microsoft-project-bonsai
+# Microsoft-Project-Bonsai
 Autonomous AI brain design patterns
 
 
@@ -24,7 +24,7 @@ In this repo, I'm diving into three tried-and-true brain design patterns that wi
 - Perception Pattern
 Picture this: A Machine Learning (ML) model handles high-level perception tasks—computer vision, auditory classification, predictions, you name it. The insights are then handed over to a decision-making module (usually Deep Reinforcement Learning or DRL). It’s the classic “see-think-do” trifecta.
 
-- Function Pattern
+- <b>Function Pattern</b>
 This one’s about independence. If you have separate tasks that don’t overlap—like controlling individual fingers versus the elbow on a robotic arm—you can break them into independent modules. Each module gets its own “knob” to control its part, like running different sections of a factory assembly line or tuning independent chemical reactors in a plant.
 
 - Strategy Pattern
